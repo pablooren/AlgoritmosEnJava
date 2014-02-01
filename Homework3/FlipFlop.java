@@ -15,7 +15,6 @@ public class FlipFlop {
 
    public static void main(String[] args) {
    		int numeroActual = 0;
-         int variableResultado = 0;
    		System.out.println(args[0]);
 
    		// si el numero es divisible dentro de 3 imprima "Flip"
@@ -28,9 +27,7 @@ public class FlipFlop {
 			System.out.println("FlipFlop");
 
    		// de lo contrario, imprima el numero
-      		System.out.println(variableResultado);
-
-
+      		System.out.println(numeroActual);
    }
 
 }
